@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*----Fonts----*/
+
+h1 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 50px;
+    @media (max-width: 1200px) {
+        font-size: 80px;
+    }
+    @media (max-width: 992px) {
+        font-size: 50px;
+    }
+    @media (max-width: 767px) {
+        font-size: 40px;
+
+    }
+}
+
+h2 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 25px;
+    @media (max-width: 1200px) {
+        font-size: 60px;
+    }
+    @media (max-width: 992px) {
+        font-size: 60px;
+    }
+    @media (max-width: 767px) {
+        font-size: 60px;
+
+    }
+}
+h3 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 25px;
+    @media (max-width: 1200px) {
+        font-size: 18px;
+    }
+    @media (max-width: 992px) {
+        font-size: 18px;
+    }
+    @media (max-width: 767px) {
+        font-size: 18px;
+
+    }
+}
+
+p {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 25px;
+}
+
+body {
+    background: #FBFBFB;
+}
+._container {
+    max-width: 1200px;
+    margin: 0 auto;
+    @media (max-width: 1200px) {
+        max-width: 970px;
+    }
+    @media (max-width: 992px) {
+        max-width: 750px;
+    }
+    @media (max-width: 767px) {
+        max-width: none;
+    }
+}
+
+._wrapper {
+    padding: 25px;
+}
